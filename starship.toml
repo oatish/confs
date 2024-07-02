@@ -67,5 +67,5 @@ style = "bold green"
 
 [username]
 style_user = "bold blue"
-format = '[\[](white)[shane s](bold 197)[](bold white)[:::](white)[$user](bold 38)[\]](white)[ ->](blink bold 14) '
+format = '[shane](bold 77)[](bold white)[\[](white)["$user"](37)[\]](white)[ ->](blink bold white) '
 show_always = true
