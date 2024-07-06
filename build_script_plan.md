@@ -21,9 +21,20 @@
       git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
       git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
       sed -i 's/plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete)/' ~/.zshrc
-      ``````
-9) install tmux
-10) install ripgrep
-11) install fzf / skim (rust version of fzf: `cargo install skim`)
-13) install bhop (`cargo install bhop`)
-14) install nushell
+      ```
+```bash
+cargo install ripgrep
+cargo install eza # alias to `ls`
+cargo install --locked bat # alias to `bat`
+cargo install skim `alias to fzf`
+cargo insall bhop
+cargo install nushell
+curl -sS https://starship.rs/install.sh | sh # install starship
+# install elvish
+{
+curl -o elvish-v0.20.1.tar.gz https://dl.elv.sh/linux-amd64/elvish-v0.20.1.tar.gz
+tar -xzvf elvish-v0.20.1.tar.gz
+sudo cp elvish-v0.20.1 /usr/local/bin/elvish
+rm elvish-v0.20.1.tar.gz elvish-v0.20.1
+}
+```

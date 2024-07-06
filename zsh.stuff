@@ -1,6 +1,6 @@
 # vim stuff
 bindkey -v
-bindkey -M viins 'jj' vi-cmd-mode
+bindkey -M viins 'kj' vi-cmd-mode
 
 [ ! -z "$(which setxkbmap)" ] && setxkbmap -option ctrl:nocaps
 [ ! -z "$(which cargo)" ] && source "$HOME/.cargo/env"
