@@ -2,8 +2,10 @@
 
 1) install python3
   + ensure pip & venv are installed
+  + install `pipx`
 2) install git
 3) install rust
+  * `rustup update`
   + `rustup compononent add`:
     + `rustfmt`
     + `rust-src`
@@ -26,7 +28,8 @@
 cargo install ripgrep
 cargo install eza # alias to `ls`
 cargo install --locked bat # alias to `bat`
-cargo install skim `alias to fzf`
+cargo install skim # alias to fzf`
+cargo install fd-find # alias to `find`
 cargo insall bhop
 cargo install nushell
 curl -sS https://starship.rs/install.sh | sh # install starship

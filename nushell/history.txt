@@ -1,0 +1,425 @@
+ls
+mkdir STLs
+unzip Legend\ of\ Zelda\ Christmas\ Tree\ Topper\ -\ 4006195.zip  STLs/zelda_christmas_topper
+unzip "Legend of Zelda Christmas Tree Topper - 4006195.zip"  STLs/zelda_christmas_topper
+ls
+cd STLs
+ls
+mkdir zelda_christmas_topper
+cd ..
+unzip "Legend of Zelda Christmas Tree Topper - 4006195.zip"  STLs/zelda_christmas_topper
+unzip "Legend of Zelda Christmas Tree Topper - 4006195.zip"  -d STLs/zelda_christmas_topper
+cura
+ls -l /snap/bin
+cura-slicer.cura
+ls
+cd STLs
+ls
+unzip "3D Hubs*.zip" test_keychain
+mkdir test_keychain
+unzip "3D Hubs*.zip" test_keychain
+unzip "3D Hubs*.zip" -d test_keychain
+ls
+unzip Legend\ of\ Zelda\ Christmas\ Tree\ Topper\ -\ 4006195.zip   unzip Legend\ of\ Zelda\ Christmas\ Tree\ Topper\ -\ 4006195.zip   
+mkdir ~/.cache/starship<\n>starship init nu | save -f ~/.cache/starship/init.nu
+curl -sS https://starship.rs/install.sh | sh
+nvim ~/.profile
+nvim ~/.bashrc
+eval "$(starship init bash)"
+mkdir ~/.cache/starship<\n>starship init nu | save -f ~/.cache/starship/init.nu
+nvim ~nu.config-path
+nvim $nu.config-path
+echo $nu.config-path
+hp ~/.config/nushell
+hp --version
+nvim ~/.bashrc
+hp ~/.config
+ls
+cd ~/.config
+ls
+cp bhop
+cd bhop
+ls
+cd scripts
+ls
+nvim $nu.env-path
+hp --version
+hp version
+ls
+source runner.nu
+hp
+hp version
+nvim ~/.bashrc
+hp nushell
+bash
+bash
+bash
+hp version
+nvim $nu.env-path
+hp version
+nvim $nu.env-path
+source-env /home/oatish/.config/bhop/scripts/runner.nu
+hp version
+nvim /home/oatish/.config/bhop/scripts/runner.nu
+cargo install bhop
+cargo install bhop --force
+nvim /home/oatish/.config/bhop/scripts/runner.nu
+hp version
+source-env /home/oatish/.config/bhop/scripts/runner.nu
+source /home/oatish/.config/bhop/scripts/runner.nu
+nvim /home/oatish/.config/bhop/scripts/runner.nu
+source /home/oatish/.config/bhop/scripts/runner.nu
+hp version
+hp v
+hp version
+nvim ~/.config/nushell/env.nu
+source env.nu
+source ~/.config/nushell/env.nu
+ls
+hp v
+source /home/oatish/.config/bhop/scripts/runner.nu
+hp v
+source-env /home/oatish/.config/bhop/scripts/runner.nu
+hp v
+nvim /home/oatish/.config/bhop/scripts/runner.nu
+source-env ~/.config/bhop/scripts/runner.nu
+hp v
+hp version
+source ~/.config/bhop/scripts/runner.nu
+hp version
+zsh
+sh
+sh
+hp v
+ls -lat
+ls
+ls /lib/systemd/system-sleep
+nvim /lib/systemd/system-sleep/nvidia
+nvim ~/.zshrc
+nvim ~/.bashrc
+cd /lib/systemd/system-sleep/
+ls
+touch key-map
+sudo touch key-map
+nvim *
+sudo nvim *
+sudo nvim key-map
+cat key-map
+nvim *
+sudo chmod a+x /lib/systemd/system-sleep/key-map
+ls /usr/lib/systemd/system-sleep
+ls /lib/systemd/system-sleep
+source ~/.bashrc
+nvim ~/.bashrc
+touch ~/.shrc
+cat ~/.shrc
+source ~/.shrc
+grop() { rg $1 -l | xargs $EDITOR; }
+function grop () { rg $1 -l | xargs $EDITOR; }
+function grop { rg $1 -l | xargs $EDITOR; }
+grop() { rg $1 -l | xargs $EDITOR; }
+grop () { rg $1 -l | xargs $EDITOR; }
+ls -l
+eza
+ls
+eza -l
+elvish
+gb
+ll
+gs
+ll
+ls
+ll
+ls
+ll
+alias --env ll = eza
+let-env alias ll = eza
+scope aliases
+scope aliases\
+scope aliases
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+ls
+ll
+eza
+ls
+ls | get name
+ls
+ls | get name
+ls
+eza
+ll
+ls
+ls | get type
+ls | get size
+ls
+ls | rg nu
+ls
+mkdir t
+cd t
+ls
+cd ..
+rm -rf t
+hp version
+hp v
+bat /home/.config/bhop/scripts/*.nu
+bat /home/oatish/.config/bhop/scripts/*.nu
+hp
+nvim /home/oatish/.config/bhop/scripts/*.nu
+hp v
+nvim /home/oatish/.config/bhop/scripts/*.nu
+hp v
+nvim /home/oatish/.config/bhop/scripts/*.nu
+hp v
+ls
+nu && ls
+ls
+rm -h
+ls | polars first
+asdfasdf
+cargo install nu_plugin_polars
+plugin add ~/.cargo/bin/nu_plugin_polars
+version
+echo $nu.plugin-path
+plugin --version
+plugin add ~/.cargo/bin/nu_plugin_polars
+ls | polars first
+plugin 
+plugins add
+cargo install nu_plugins_polars
+cargo install nu_plugin_polars
+cargo install nu
+cargo install nu --features=dataframe
+cargo install nu_plugin_polars
+plug add ~/.cargo/bin/nu_plugin_polars
+plugin add ~/.cargo/bin/nu_plugin_polars
+ls | polars
+dfr
+ls | polars
+polars store-ls
+ls
+gs
+hp v
+ls
+nvim env.nu
+nushell
+ls
+nvim env.nu
+ls
+nvim *.nu
+let a = "hel|o"
+echo $a
+$a | not str contains "|"
+$a | str contains "|"
+$a | str contains "|" not
+$a | str contains "|" | not
+$a | str contains "|" --not
+$a | str contains "|"
+$a | ! str contains "|"
+$a | str contains "|" ! 
+$a | str contains "|" | ! 
+$a | str contains "|" | not
+$a | str contains "|" == false
+$a | (str contains "|") == false
+$a | (str contains "|") == true
+$a | (str contains "|")
+$a | (str contains "|") == true
+$a | (str contains "|") !~ true
+$a | str contains "|" | get 0
+not ($a | str contains "|")
+($a | str contains "|")
+ls | polars
+hp v
+rg nu
+rg nu | polars
+ls | polars into
+ls | polars into-df
+ls
+ls | polars into-df | polars get name, size
+ls | polars into-df | polars get name size
+ls | polars into-df | polars get size | polars arg-sum
+ls | polars into-df | polars get size | polars sum
+ls | polars into-df | polars get size | polars sum | get 0
+ls | polars into-df | polars get size | first 1
+ls | polars into-df | polars get name size | polars contains "nu"
+ls
+ls | polars into-df | polars get name size | polars get name polars contains "nu"
+ls | polars into-df | polars get name size | polars contains "nu"
+ls | polars into-df | polars get name | polars contains "nu"
+ls | polars into-df | polars get name size | polars filter-with (polars get name | polars contains "nu")
+ls | polars into-df | polars get name size | polars filter-with (polars col name  contains "nu")
+ls | polars into-df | polars get name size | polars filter-with (polars col name polars contains "nu")
+ls | polars into-df | polars get name size | polars filter-with ((polars col name) | polars contains "nu")
+ls | polars into-df | polars get name size | polars filter-with ((polars col name) contains "nu")
+ls | polars into-df | polars get name size | polars filter-with ((polars col name) | polars contains "nu")
+ls | get name size
+ls | get name
+ls
+ls get name, size
+ls | get name, size
+ls | get name size
+ls | get size
+ls
+ls | polars into-df
+ls | get name
+ls | get 9
+ls | get 0
+ls | select name size
+cal
+date
+date now
+ls | select name size | polars into-df
+ls | select name size | polars into-df | polars filter (polars col size < 5000)
+ls | select name size | polars into-df | polars filter ((polars col siz)e < 5000)
+ls | select name size | polars into-df | polars filter ((polars col siz) < 5000)
+ls | select name size | polars into-df | polars filter ((polars col size) < 5000)
+ls | select name size | polars into-df | polars filter ((polars col size) < 5000) | polars col size | polars sum
+ls | select name size | polars into-df | polars filter ((polars col size) < 5000) | polars col siz
+ls | select name size | polars into-df | polars filter ((polars col size) < 5000) | polars col size
+ls | select name size | polars into-df | polars filter ((polars col size) < 5000) | polars select size
+ls | select name size | polars into-df | polars filter ((polars col size) < 5000) | polars select size | polars sum
+ls | select name size | polars into-df | polars filter ((polars col size) < 5000) | polars select size | polars sum | polars first
+ls | select name size | polars into-df | polars filter ((polars col size) < 5000) | polars select size | polars sum | polars take
+ls | select name size | polars into-df | polars filter ((polars col size) < 5000) | polars select size | polars sum | polars take 1
+ls | select name size | polars into-df | polars filter ((polars col size) < 5000) | polars select size | polars sum | polars take 0
+ls | select name size | polars into-df | polars filter ((polars col size) < 5000) | polars select size | polars sum
+ls | select name size | polars into-df | polars filter ((polars col size) < 5000) | polars select size | polars sum | polars take 0
+ls | select name size | polars into-df | polars filter ((polars col size) < 5000) | polars select size | polars sum | polars cast int 
+ls | select name size | polars into-df | polars filter ((polars col size) < 5000) | polars select size | polars sum | polars cast u8
+ls | select name size | polars into-df | polars filter ((polars col size) < 5000) | polars select size | polars sum
+ls | select name size | polars into-df | polars filter ((polars col size) < 5000) | polars select size | polars sum | polars cast u8 size
+ls | select name size | polars into-df | polars filter ((polars col size) < 5000) | polars select size | polars sum | polars cast u32 size
+ls | select name size | polars into-df | polars filter ((polars col size) < 5000) | polars select size | polars sum | polars cast u32 size | polars take 0
+ls | select name size
+ls | select name size | do {|x| $x.size }
+ls | select name size | do {|x, y| $x.size }
+ls | select name size
+ls | select name size | each {|e| $e.size}
+ls | select name size | each {|e| [$e.name, $e.size]}
+ls | select name size | each {|e| [$e.name, $e.size]} | collect
+ls | select name size | split column " "
+ls | select name size | filter { |e| ($e.size | split row "," | get 1 | into float) < 8}
+ls | select name size | filter { |e| ($e.size | split row ",") }
+ls | select name size | each { |e| ($e.size | split row ",") }
+ls | select name size | do { |e| ($e.size | split row ",") }
+ls | select name size | select size
+ls | select name size | filter { |e| $e.size < 8KiB }
+ls | select name size | filter { |e| $e.size < 8KiB } | collect
+ls
+ls | polars into-df 
+nu
+nu
+nu
+nu
+nu
+nu; ls
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+hp kitty.conf
+hp init.vim
+hp kitty
+ls
+bat theme.conf
+hp init.vim
+hp init.vvim
+hp init.vim
+hp kitty
+ls
+hp kitty
+ls
+ls kitty-themes/themes
+ls kitty-themes/themes | rg i pink
+ls kitty-themes/themes | rg -i pink
+ls
+hp ~/.config
+nvim starship.toml
+ls
+np notes
+hp notes
+ls
+mkdir tmp
+hp tmp
+ls
+touch cols.txt
+ls
+hp kitty
+rg color14
+rg color15
+rg color16
+ls
+hp nushell
+nvim cols*
+hp kitty
+rg color17
+rg color19
+rg color20
+rg color21
+nvim *.nu
+ls
+hp proj
+ls
+hp bricked
+ls
+nvim kitty.conf
+hp nushell
+nvim *.nu
+ls
+hp ~
+ls
+hp kitty
+ls
+cd kitty-themes/themes
+ls
+cp Twilight.conf pink.conf
+cd ..
+ls
+hp nushell
+ls
+hp ~/
+ls
+hp ~
+ls
+hp confs
+ls
+nvim starship.toml
+nvim theme.conf
+hp init.vvim
+hp init.vim
+hp kitty
+ls
+hp kitty
+ls
+ls kitty-themes/themes | rg -i pink
+hp config
+ls
+hp confs
+ls
+hp weiner
+ls
+gs
+ga nushell
+gs
+gaa
+gs

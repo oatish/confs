@@ -13,7 +13,7 @@ format = "[$path]($style)[$lock_symbol]($lock_style) "
 [git_branch]
 format = " [$symbol$branch]($style) "
 symbol = "📖 "
-style = "bold yellow"
+style = "bold #f8c8dc"
 
 [git_commit]
 commit_hash_length = 8
@@ -46,7 +46,7 @@ disabled = true
 [julia]
 format = "[$symbol$version]($style) "
 symbol = "ஃ "
-style = "bold green"
+style = "bold pink"
 
 [memory_usage]
 format = "$symbol[${ram}( | ${swap})]($style) "
@@ -59,13 +59,13 @@ disabled = true
 
 [python]
 format = "[$symbol$version]($style) "
-style = "bold green"
+style = "bold pink"
 
 [rust]
 format = "[$symbol$version]($style) "
-style = "bold green"
+style = "bold pink"
 
 [username]
-style_user = "bold blue"
-format = '[shane](bold 77)[](bold white)[\[](white)["$user"](37)[\]](white)[ ->](blink bold white) '
+style_user = "bold #c21e56"
+format = '[shane](bold #f33a6a)[](bold #fff5ee)[\[](#fff5ee)["$user"](#c21e56)[\]](#fff5ee)[ ->](blink bold #fff5ee) '
 show_always = true
