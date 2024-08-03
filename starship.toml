@@ -13,7 +13,7 @@ format = "[$path]($style)[$lock_symbol]($lock_style) "
 [git_branch]
 format = " [$symbol$branch]($style) "
 symbol = "📖 "
-style = "bold #f8c8dc"
+style = "bold #999999"
 
 [git_commit]
 commit_hash_length = 8
@@ -67,5 +67,5 @@ style = "bold pink"
 
 [username]
 style_user = "bold #c21e56"
-format = '[shane](bold #f33a6a)[](bold #fff5ee)[\[](#fff5ee)["$user"](#c21e56)[\]](#fff5ee)[ ->](blink bold #fff5ee) '
+format = '[shane](bold #999999)[](bold #fff5ee)[\[](#fff5ee)["$user"](#8f8483)[\]](#fff5ee)[ ->](blink bold #fff5ee) '
 show_always = true
